@@ -1,18 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class NewBehaviourScript1 : MonoBehaviour
+public class CardItem : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public Dictionary<string, string> data;//ø®≈∆–≈œ¢
+    public void Init(Dictionary<string, string> data)
+        {
+        this.data = data;
     }
 }
