@@ -1,44 +1,86 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class FightCardManager
+
+//战斗界面
+public class FightUI : UIBase
 {
-    // Start is called before the first frame update
-    void Start()
+    private Text cardCountTxt;//卡牌数量
+    private Text noCardCountTxt;//弃牌堆数量
+    private Text powerTxt;
+    private Text hpTxt;
+    private Image hpImg;
+    private Text fyTxt;//防御数值
+    private List<CardItem> cardItemsList;//存储卡牌物体的集合
+
+    private void Awake()
     {
-        public static FightCardManager Instance = new FightCardManager();
-        public List<string> cardList;//卡堆集合
-        public List<string> usedCardList;//弃牌堆
-        //初始化
-        public void Init()
+        cardItemsList = new List<CardItem>();
+        cardCountTxt = transform.Find("hasCard/icon/Text").GetComponent<Text>();
+        noCardCountTxt = transform.Find("hasCard/icon/Text").GetComponent<Text>();
+        powerTxt = transform.Find("mana/Text").GetComponent<Text>();
+        hpTxt = transform.Find("hp/moneyTxt").GetComponent<Text>();
+        hpImg = transform.Find("hp/fill").GetComponent<Image>();
+        fyTxt = transform.Find("hp/fangyu/Text").GetComponent<Text>();
+    }
+
+    private void Start()
     {
-        cardList = new List<string>();
-        usedCardList = new List<string>();
-        //定义临时集合
-        List<string> tempList = new List<string>();
-        //将玩家的卡牌存储到临时集合
-        tempList.AddRange(RoleManager.Instance.cardList);
-        while (tempList.Count > 0)
+        UpdateHp();
+        UpdatePower();
+        UpdateDefense();
+        UpdateCardCount();
+        UpdateUsedCardCount();
+    }
+    //更新血量显示
+    public void UpdateHp()
+    {
+
+    }
+
+    //更新能量
+    public void UpdatePower()
+    {
+
+    }
+
+    //更新防御
+    public void UpdateDefense()
+    {
+
+    }
+
+    //更新卡队数量
+    public void UpdateCardCount()
+    {
+
+    }
+
+    //更新弃牌堆数量
+    public void UpdateUsedCardCount()
+    {
+
+    }
+
+    //创建卡牌物体
+    public void CreateCardItem(int count)
+    {
+        if(count > FightCardManager.Instance.cardList.Count)
         {
-            //随机下标
-            int tempIndex = Random.Range(0, temList.Count);
-            //添加到卡牌
-            cardList.Add(tempList[tempIndex]);
-            //临时集合删除
-            tempList.RemoveAt(tempIndex);
+            count = FightCardManager.Instance.cardList.Count;
+
         }
-        Debug.Log(cardList.Count);
+        for(int i = 0; i < count; i++)
+        {
+            GameObject obj = Instantiate(Resource.Load("UI/CardItem"), transform)as GameObject;
+            obj.GetComponent<RectTransform>().anchoredPosition = new Vector2(-1000.- 700);
+            var item = obj.AddComponent<CardItem>();
+            string cardId = FightCardManager.Instancce.DrawCard();
+            Dictionary<string, string> data = GameconfigManager.Instance.GetCardById(cardId);
+            item.Init(data);
+            cardItemsList.Add(item);
+        }
     }
-    //是否有卡
-    public bool HasCard()
-    {
-        return cardList.Count > 0;
-    }
-    public string DrawCard()
-    {
-        string id = cardList[cardList.Count - 1];
-        cardList.RemoveAt(cardList.Count - 1);
-        return id;
-    }
-    }
+}
