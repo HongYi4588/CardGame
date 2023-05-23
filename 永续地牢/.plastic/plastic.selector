@@ -1,0 +1,4 @@
+repository "永续地牢@wechat_os_qy0zp7rswtsmfykp7lh3o0fbu@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
