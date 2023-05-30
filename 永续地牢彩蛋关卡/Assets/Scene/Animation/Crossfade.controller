@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!815301076 &3
+PreviewImporter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ExternalObjects: {}
+  m_UsedFileIDs:
+  - 102900000
+  m_UserData: 
+  m_AssetBundleName: 
+  m_AssetBundleVariant: 
+--- !u!1029 &102900000
+DefaultAsset:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Crossfade
+  m_Message: 
+  m_IsWarning: 0
