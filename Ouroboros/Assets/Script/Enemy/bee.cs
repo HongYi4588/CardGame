@@ -11,7 +11,7 @@ public class bee : MonoBehaviour
     //物体水平
     [Header("速度")]
     public float speed;
-    //怪物的左右点
+    //怪物的左右点触碰
     [Header("左右点")]
     public Transform left;
     public Transform right;
@@ -21,7 +21,7 @@ public class bee : MonoBehaviour
     bool change = true;
     void Awake()
     {
-        //获取组件
+        //获取需要的组件
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         leftpoint = left.position.x;
@@ -47,14 +47,12 @@ public class bee : MonoBehaviour
         //防止来回掉头的情况
         if ((this.transform.position.x > leftpoint && this.transform.position.x < rightpoint))
         {
-            change = true;
-        }
+            change = true;}
         //保持原有速度
         rb.velocity = new Vector2(speed * Time.fixedDeltaTime, rb.velocity.y);
         
     }
-
-    public void dead()
+    public void dead()//判定死亡
     {
         coll.enabled = false;
         anim.SetBool("die", true);
