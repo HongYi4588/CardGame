@@ -105,7 +105,7 @@ public class PlayerControll : MonoBehaviour
         //是否碰到标签为enemy的物体
         if (collision.gameObject.tag == "enemy"|| collision.gameObject.tag == "piranha")
         {
-            //如果处于fall状态并且在它上方就销毁它
+            //如果处于fall状态并且在它上方就踩死它
             if (anim.GetBool("fall")&&(this.transform.position.y-0.6f> collision.gameObject.transform.position.y))
             {
                 //判断哪个类型怪物调用代码
