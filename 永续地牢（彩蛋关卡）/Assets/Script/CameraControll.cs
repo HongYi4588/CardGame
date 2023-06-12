@@ -1,19 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class CameraControll : MonoBehaviour
 {
-    //定义位置
+    //锟斤拷锟斤拷位锟斤拷
     private Transform player;
     void Awake()
     {
-        //获取组件，找到游戏中名为player的物体
+        //锟斤拷取锟斤拷锟斤拷锟斤拷业锟斤拷锟较凤拷锟斤拷锟轿猵layer锟斤拷锟斤拷锟斤拷
         player = GameObject.Find("Player").GetComponent<Transform>();
     }
     void Update()
-    {
-      
-        this.transform.position=new Vector3(player.position.x, player.position.y+1, this.transform.position.z); 
-    }
+    {this.transform.position=new Vector3(player.position.x, player.position.y+1, this.transform.position.z);}
 }
