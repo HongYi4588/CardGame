@@ -1,0 +1,4 @@
+repository "永续地牢（彩蛋关卡）@wechat_os_qy06q7csnrh1wp7hndjvnrgxu@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
