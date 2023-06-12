@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class platform : MonoBehaviour
 {
-    //获取组件
+    //??????
     private Collider2D coll;
     private Rigidbody2D rb;
     private Animator anim;
-    //物体水平
-    [Header("速度")]
+    //??????
+    [Header("???")]
     public float speed;
-    //怪物的左右点
-    [Header("左右点")]
+    //??????????
+    [Header("?????")]
     public Transform left;
     public Transform right;
 
@@ -21,7 +21,7 @@ public class platform : MonoBehaviour
     bool change = true;
     void Awake()
     {
-        //获取组件
+        //??????
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         leftpoint = left.position.x;
@@ -37,18 +37,18 @@ public class platform : MonoBehaviour
     }
     void move()
     {
-        //怪物掉头以及改变速度方向
+        //??????????????????
         if ((this.transform.position.x < leftpoint || this.transform.position.x > rightpoint) && change)
         {
             speed = speed * -1;
             change = false;
         }
-        //防止来回掉头的情况
+        //??????????????
         if ((this.transform.position.x > leftpoint && this.transform.position.x < rightpoint))
         {
             change = true;
         }
-        //保持原有速度
+        //??????????
         rb.velocity = new Vector2(speed * Time.fixedDeltaTime, rb.velocity.y);
 
     }
