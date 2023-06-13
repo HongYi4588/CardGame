@@ -1070,7 +1070,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &357524749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1902,7 +1901,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &554675114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2692,7 +2690,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &881855943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2819,7 +2816,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1257873819
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -3318188226485093758, guid: ae72133dacba6ec4eb33ecde48f50e56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2862,7 +2859,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayerID
@@ -3042,7 +3043,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &963802328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3404,7 +3404,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1002346132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4109,8 +4108,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2131675001
-  m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -14235,12 +14234,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 823bdc9089cd3ba4fa58dfc35f951b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 881855941}
   lifeimage:
   - {fileID: 21300000, guid: b18aa9795ff504f048a193653a6aaaa6, type: 3}
   - {fileID: 21300000, guid: 3c2eeae102fc54c208ca164fd14595be, type: 3}
   - {fileID: 21300000, guid: 95494a9f649d4463b85a095258c83af4, type: 3}
   - {fileID: 21300000, guid: d43faa95ae8bf43a6acb96b79294243c, type: 3}
-  player: {fileID: 881855941}
   lifeage: {fileID: 1166800360}
 --- !u!114 &1166800360
 MonoBehaviour:
@@ -15121,7 +15120,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1397855573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15681,7 +15679,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1529984428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15859,7 +15856,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1563305961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15957,7 +15953,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1642906289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16060,7 +16055,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1661307250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16158,7 +16152,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1685839615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16888,7 +16881,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1836380341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131878,7 +131870,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1846411291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131982,7 +131973,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1852991976
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -132109,7 +132099,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1855280658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132207,7 +132196,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1907722240
 MonoBehaviour:
   m_ObjectHideFlags: 0
