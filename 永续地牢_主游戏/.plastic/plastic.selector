@@ -1,0 +1,4 @@
+repository "永续地牢_主游戏@wechat_os_qy06q7csnrh1wp7hndjvnrgxu@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
