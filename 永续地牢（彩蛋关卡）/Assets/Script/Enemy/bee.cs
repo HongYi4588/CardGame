@@ -30,14 +30,11 @@ public class bee : MonoBehaviour
         Destroy(right.gameObject);
         coll = GetComponent<Collider2D>();
     }
-
     void Update()
-    {
-        move();
-    }
+    {move();}
     void move()
     {
-        //怪物掉头以及改变速度方向
+        //Bee和Slug掉头以及改变速度方向
         if((this.transform.position.x<leftpoint|| this.transform.position.x > rightpoint )&& change)
         {
             this.transform.localScale = new Vector3(this.transform.localScale.x * -1, 1, 1);
@@ -50,17 +47,14 @@ public class bee : MonoBehaviour
             change = true;
         }
         //保持原有速度
-        rb.velocity = new Vector2(speed * Time.fixedDeltaTime, rb.velocity.y);
-        
+        rb.velocity = new Vector2(speed * Time.fixedDeltaTime, rb.velocity.y);   
     }
-
     public void dead()
     {
         coll.enabled = false;
         anim.SetBool("die", true);
         speed = 0;
     }
-
     public void destroy()
     {
         Destroy(this.gameObject);
