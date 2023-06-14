@@ -97,8 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 88fa3f1e05a5bb94a988e9ac79c4b8f1,
-    type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 88fa3f1e05a5bb94a988e9ac79c4b8f1, type: 2}
   m_LightingSettings: {fileID: 2081135830}
 --- !u!196 &4
 NavMeshSettings:
@@ -662,78 +661,63 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5487081229108180254, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229108180254, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229402753265, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229402753265, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349068, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349071, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349071, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_Name
       value: level1
       objectReference: {fileID: 0}
-    - target: {fileID: 5487081229607349071, guid: 0ffbac9a1fde679419d8ade44b840480,
-        type: 3}
+    - target: {fileID: 5487081229607349071, guid: 0ffbac9a1fde679419d8ade44b840480, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
