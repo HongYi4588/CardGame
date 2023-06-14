@@ -1070,6 +1070,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &357524749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1689,7 +1690,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayerID
@@ -1901,6 +1906,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &554675114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1952,7 +1958,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayerID
@@ -2013,7 +2023,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayerID
@@ -2025,7 +2039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7442928308483489773, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -180.31308
+      value: -184.44
       objectReference: {fileID: 0}
     - target: {fileID: 7442928308483489773, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2326,7 +2340,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayerID
@@ -2423,7 +2441,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayerID
@@ -2690,6 +2712,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &881855943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2817,7 +2840,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1257873819
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3318188226485093758, guid: ae72133dacba6ec4eb33ecde48f50e56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2932,7 +2955,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8240660143249968284, guid: 76d57cefe5286d04193c84602813062b, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240660143249968284, guid: 76d57cefe5286d04193c84602813062b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8240660143249968284, guid: 76d57cefe5286d04193c84602813062b, type: 3}
       propertyPath: m_SortingLayerID
@@ -3043,6 +3070,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &963802328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3288,7 +3316,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayerID
@@ -3404,6 +3436,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1002346132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3543,7 +3576,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayerID
@@ -3803,7 +3840,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayerID
@@ -4109,7 +4150,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2131675001
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -14385,7 +14426,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8240660143249968284, guid: 76d57cefe5286d04193c84602813062b, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240660143249968284, guid: 76d57cefe5286d04193c84602813062b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8240660143249968284, guid: 76d57cefe5286d04193c84602813062b, type: 3}
       propertyPath: m_SortingLayerID
@@ -15120,6 +15165,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1397855573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15679,6 +15725,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1529984428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15856,6 +15903,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1563305961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15953,6 +16001,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1642906289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16055,6 +16104,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1661307250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16152,6 +16202,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1685839615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16735,7 +16786,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7442928308483489772, guid: 7ea4c8956cea7bc4da635b8ce3975733, type: 3}
       propertyPath: m_SortingLayerID
@@ -16881,6 +16936,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1836380341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131870,6 +131926,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1846411291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131973,6 +132030,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1852991976
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -132099,6 +132157,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1855280658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132196,6 +132255,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1907722240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132373,7 +132433,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8240660143249968284, guid: 76d57cefe5286d04193c84602813062b, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240660143249968284, guid: 76d57cefe5286d04193c84602813062b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8240660143249968284, guid: 76d57cefe5286d04193c84602813062b, type: 3}
       propertyPath: m_SortingLayerID
@@ -132438,7 +132502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayerID
@@ -132602,7 +132670,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8966889471022681424, guid: 828786c37a1d04646a1afc199907d5c2, type: 3}
       propertyPath: m_SortingLayerID
@@ -133174,7 +133246,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300178, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
