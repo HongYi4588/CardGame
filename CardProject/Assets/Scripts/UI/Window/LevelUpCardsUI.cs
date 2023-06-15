@@ -20,8 +20,9 @@ public class LevelUpCardsUI : UIBase
             CardItem item = obj.AddComponent<NoramlCard>();
             bool chance = true; 
             item.Init(data);
-            obj.transform.Find("bg/levelUpBtn").GetComponent<Button>().onClick.AddListener(delegate ()
+            obj.transform.Find("levelUpBtn").GetComponent<Button>().onClick.AddListener(delegate ()
             {
+                Debug.Log("点到了真的能用");
                 if (RoleManager.Instance.CheckLevelUp(cardId) == true)
                 {
                     if (chance == true)
@@ -42,7 +43,7 @@ public class LevelUpCardsUI : UIBase
         }
 
 
-        transform.Find("closeBtn").GetComponent<Button>().onClick.AddListener(delegate ()
+        transform.Find("LevelUpCardsUI/closeBtn").GetComponent<Button>().onClick.AddListener(delegate ()
         {
             Close();
 

@@ -20,6 +20,7 @@ public class LossUI : UIBase
 
             FightManager.Instance.CurHp = FightManager.Instance.MaxHp;
             SceneManager.LoadScene(1);
+            AudioManager.Instance.PlayBGM("battle");
             //UIManager.Instance.ShowUI<SelectLevelUI>("SelectLevelUI");
         });
     }
