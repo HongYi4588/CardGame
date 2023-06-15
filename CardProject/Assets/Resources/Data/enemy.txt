@@ -1,0 +1,6 @@
+Id	Name	Hp	Attack	Defend	Model	
+Id	名字	血量	攻击力	防御盾	怪物的模型路径	
+10001	史莱姆	10	4	5	Model/Slime	
+10002	石头人	15	8	8	Model/Golem	
+10003	乌龟	5	5	10	Model/TurtleShell	
+10004	恶龙	30	10	10	Model/ChaDragon	

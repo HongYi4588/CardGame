@@ -1,0 +1,7 @@
+Id	Name	Icon	NextId	Type	EnemyIds	Pos	
+Id	关卡名称	图标	下一关	类型	敌人Id的数组	所有怪物的位置	
+10001	1	Icon/common/ui_tx_09	10002	0	10001	0,0,0	
+10002	2	Icon/common/Pictoicon_Ax	10003	1			
+10003	3	Icon/common/ui_tx_09	10004	0	10002	0,-0.5,0	
+10004	4	Icon/common/ui_tx_09	10005	0	10003	0,-0.5,0	
+10005	5	Icon/common/ui_tx_09	-1	0	10004	0,-0.5,0	
