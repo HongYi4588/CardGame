@@ -6,7 +6,7 @@ using MySql.Data.MySqlClient;
 using System.Data;
 
 /// <summary>
-///MYSQLHelper 的摘要说明
+///MYSQLHelper （并未实现连接数据库）
 /// </summary>
 public abstract class MySqlHelper
 {
