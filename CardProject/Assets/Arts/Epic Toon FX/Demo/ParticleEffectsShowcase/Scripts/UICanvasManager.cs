@@ -14,8 +14,8 @@ public class UICanvasManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if (PENameText != null)
-			PENameText.text = ParticleEffectsLibrary.GlobalAccess.GetCurrentPENameString();
+		//if (PENameText != null)
+			//PENameText.text = ParticleEffectsLibrary.GlobalAccess.GetCurrentPENameString();
 	}
 	
 	// Update is called once per frame
@@ -56,24 +56,24 @@ public class UICanvasManager : MonoBehaviour {
 
 	private void SelectPreviousPE() {
 		// Previous
-		ParticleEffectsLibrary.GlobalAccess.PreviousParticleEffect();
-		if (PENameText != null)
-			PENameText.text = ParticleEffectsLibrary.GlobalAccess.GetCurrentPENameString();
+		//ParticleEffectsLibrary.GlobalAccess.PreviousParticleEffect();
+		//if (PENameText != null)
+			//PENameText.text = ParticleEffectsLibrary.GlobalAccess.GetCurrentPENameString();
 	}
 	private void SelectNextPE() {
 		// Next
-		ParticleEffectsLibrary.GlobalAccess.NextParticleEffect();
-		if (PENameText != null)
-			PENameText.text = ParticleEffectsLibrary.GlobalAccess.GetCurrentPENameString();
+		//ParticleEffectsLibrary.GlobalAccess.NextParticleEffect();
+		//if (PENameText != null)
+			//PENameText.text = ParticleEffectsLibrary.GlobalAccess.GetCurrentPENameString();
 	}
 
 	private RaycastHit rayHit;
 	private void SpawnCurrentParticleEffect() {
 		// Spawn Particle Effect
 		Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-		if (Physics.Raycast (mouseRay, out rayHit)) {
-			ParticleEffectsLibrary.GlobalAccess.SpawnParticleEffect (rayHit.point);
-		}
+		//if (Physics.Raycast (mouseRay, out rayHit)) {
+			//ParticleEffectsLibrary.GlobalAccess.SpawnParticleEffect (rayHit.point);
+		//}
 	}
 
 	/// <summary>

@@ -55,6 +55,12 @@ public class SelectLevelUI : UIBase
         LevelItem item = obj.AddComponent<LevelItem>();
         item.Init(levelData, data);
         obj.SetActive(true);
+        int index = LevelManager.Instance.Levels.IndexOf(levelData);
+        if (index < 5)
+        {
+           levelData.IsUnLock = true;
+        }
+
         return item;
     }
 
@@ -72,6 +78,7 @@ public class SelectLevelUI : UIBase
         {
             return;
         }
+
         if (levelItem.levelData.IsFinish == true)
         {
             //已经通关

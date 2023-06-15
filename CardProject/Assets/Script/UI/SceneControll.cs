@@ -31,6 +31,6 @@ public class SceneControll : MonoBehaviour
     public void Level2()
     {
      Time.timeScale = 1;
-     SceneManager.LoadScene(2);
+     SceneManager.LoadScene(0);
     }
 }
